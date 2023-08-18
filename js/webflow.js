@@ -1,43 +1,7 @@
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
-// const form = document.querySelector('form')
-// const submitBtn = document.querySelector('form button')
-// const progressbar = document.querySelector('.progressbar')
-// const bar = document.querySelector('.progressbar .bar')
-// const submitted = document.querySelector('.submitted')
 
-// form.addEventListener('submit', e => {
-// 	e.preventDefault()
-	
-// 	form.style.animation = 'linear .3s push'
-	
-// 	setTimeout(() => {
-// 		submitBtn.style.scale = '1'
-// 	}, 300)
-	
-// 	setTimeout(() => {
-// 		submitBtn.style.animation = 'ease .5s scaleWidth'
-// 	}, 900)
-	
-// 	setTimeout(() => {
-// 		progressbar.style.bottom = '0px'
-// 	}, 1200)
-	
-// 	setTimeout(() => {
-// 		submitBtn.style.width = '100%'
-// 		bar.style.animation = 'ease .7s scaleBar'
-// 	}, 1390)
-	
-// 	setTimeout(() => {
-// 		bar.style.width = '100%'
-// 		submitted.style.top = '0'
-// 	}, 2090)
-// })
+// if (window.location.href==="https://xyz.github.io") {
+//     window.location.href = "https://risvitareq.com"; 
+// }
 
 $("#contactForm").submit(function(event) 
      {
